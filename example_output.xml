@@ -1,0 +1,34 @@
+<!--example format idea not necessarily complete or perfect structure! -->
+<index>
+    <file>test.pdf</file>
+
+    <entries>
+        <entry>
+            <phrase>Field</phrase>
+            <pagenumbers>
+                <number>10</number>
+                <number>5</number>  
+            </pagenumbers>
+
+            <subentries>
+                <entry>
+                    <phrase>algebraically closed</phrase>
+                    <pagenumbers>
+                        <number>156</number>
+                    </pagenumbers>
+                </entry> 
+            </subentries>
+        </entry>
+        <entry>
+            <phrase>Inaccessible</phrase>
+            <reference>Accessible</reference>  <!-- used e.g. when a "see" reference occurs -->
+        </entry>
+        <entry>
+            <phrase>decibel</phrase>
+            <synonyms>
+                <synonym>DB</synonym> <!-- used e.g. when two words share one entry or the acronym stand behind in brackets -->
+            </synonyms>
+        </entry>
+    </entries>
+</index>
+
